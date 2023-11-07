@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Data">
+      <HintPath>..\Data\bin\Debug\net6.0\Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Dominio">
+      <HintPath>..\Dominio\bin\Debug\net6.0\Dominio.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
